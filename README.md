@@ -1,15 +1,16 @@
 <h1>Projeto de Estudos - IMDB Redesign Concept</h1>
+<h2>Design</h2>
+<ul>
+	<li>Design-Base: https://www.behance.net/gallery/33630879/IMDb-Redesign-Concept</li>
+	<li>Cores:</li>
+</ul>
 <h2>Desenvolvido com:</h2>
 <ul>
 	<li>HTML, CSS, JS</li>
 	<li>ANGULAR 2 v4.01</li>
 	<li>JSON-SERVER: Utilizado para simular a base de dados da aplicação de back-end</li>
 </ul>
-<h2>Design</h2>
-<ul>
-	<li>Design-Base: https://www.behance.net/gallery/33630879/IMDb-Redesign-Concept</li>
-	<li>Cores:</li>
-</ul>
+
 
 <h3>Instalando as ferramentas necessárias</h3>
 <p>Abra seu Terminal/Shell e digite:</p>

@@ -1,0 +1,21 @@
+<div class="content" id="main">
+	<div id="top_banner">
+		<img class="img-responsive" src="webroot/img/banner.jpg" alt="banner">
+	</div>
+	<div id="content_wrap">
+		<div id="column_left">
+			<widget  widgetTitle="{{'TOP MOVIES OF 2015' | uppercase }}" url="movies">
+				<thumbnail *ngFor="let movie of movies | slice:0:4" size="thumbnail_116x180" url="movies/{{movie.id}}" picture="{{movie.picture}}" title="{{movie.name}}" labelTwo="{{movie.year}}"></thumbnail>
+			</widget>
+			<widget  widgetTitle="{{'BORN TODAY' | uppercase }}" url="actors">
+				<thumbnail *ngFor="let actor of actors | slice:0:4" size="thumbnail_119x119" url="actors/{{actor.id}}" picture="{{actor.picture}}" title="{{actor.name}}" labelTwo="{{actor.age}}"></thumbnail>
+			</widget>	
+		</div>
+		<div id="column_clear"></div>
+		<div id="column_right">
+			<widget widgetTitle="{{'box office' | uppercase }}" url="movies">
+				<columnList *ngFor="let movie of movies | slice:0:5" url="movies/{{movie.id}}" labelOne="{{movie.name }}" labelTwo="$ {{movie.boxOffice}} | {{movie.genre}}"></columnList>
+			</widget>
+		</div>
+	</div>		
+</div>

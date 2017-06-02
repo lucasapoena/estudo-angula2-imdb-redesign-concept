@@ -1,0 +1,47 @@
+<div class="container">
+	<header class="header">		
+		<div class="top_menu">
+			<div class="toggleMenu">
+				<a id="openbtn" onclick="openNav()" href="javascript:void(0)" alt='Menu'><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+				<a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+			</div>
+			<div class='logo'>
+				<img class="img-responsive  Hcenter_Vcenter" src="webroot/img/logo.png" alt="IMDB">
+			</div>
+			<div class='top_menu_left'>				
+				<ul id="primary_nav_wrap" class="Hcenter_Vcenter">
+					<li><a [routerLink]="['/']">HOME</a></li>
+					<li><a [routerLink]="['/movies']">MOVIES</a></li>
+					<li><a [routerLink]="['/tvshows']">TV SHOWS</a></li>					
+					<li><a [routerLink]="['/collections']">COLLECTIONS</a></li>						
+					<li><a [routerLink]="['/events']">EVENTS</a></li>					
+					<li><a [routerLink]="['/news']">NEW</a></li>
+				</ul>					
+			</div>
+			<div class='top_menu_right'>
+				<div class='search_wrap'>
+					<span class="Hcenter_Vcenter glyphicon glyphicon-search" aria-hidden="true"></span>
+				</div>	
+				<div class='eye_wrap'>
+					<span class="Hcenter_Vcenter glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+				</div>	
+				<div class='user_wrap'>
+					<img class="img-thumbnail Hcenter_Vcenter" src="webroot/img/users/user.jpg" alt="banner">
+				</div>		
+			</div>				
+		</div>	
+	</header>
+	<div id="sidenav_top"></div>
+	<div id="mySidenav" class="sidenav">
+		<ul id="primary_nav_wrap">
+			<li><a [routerLink]="['/']">HOME</a></li>
+			<li><a [routerLink]="['/movies']">MOVIES</a></li>
+			<li><a [routerLink]="['/movies']">TV SHOWS</a></li>					
+			<li><a [routerLink]="['/collections']">COLLECTIONS</a></li>						
+			<li><a [routerLink]="['/events']">EVENTS</a></li>					
+			<li><a [routerLink]="['/news']">NEW</a></li>			
+		</ul>	
+	</div>	
+    <router-outlet></router-outlet>
+    <footer></footer>
+</div>

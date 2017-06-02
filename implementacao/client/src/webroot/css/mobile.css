@@ -1,0 +1,146 @@
+/* Mobile - Vertical */
+@media screen and (max-height: 980px) {
+	body {
+		font-size: 12px;
+		background: white;
+	}
+	.container {
+	width: 100%;
+	}
+
+	/* ---- Begin - TopMenu */
+	.top_menu{
+		height: 60px;
+		border: none;
+		position: fixed;
+		top:0;
+		z-index: 2;
+	}
+
+	.top_menu_left, .top_menu_right .eye_wrap, .top_menu_right .user_wrap{
+		display: none;
+	}
+
+	.top_menu_right div{
+		border-left: none;    
+	}
+
+	.toggleMenu{
+		display:  inline;
+		position: relative;
+		font-size: 20px;
+	}
+	.toggleMenu a{
+		color: #666;
+		margin: 0;
+    	top: 50%;
+   		left: 50%;
+    	position: absolute;
+    	margin-right: -50%;
+    	transform: translate(-50%, -50%);	
+		text-decoration: none;
+	}
+	#closebtn{
+		font-size: 36px;
+		display: none;
+	}
+
+	#primary_nav_wrap{
+		display:none;
+		font-size: 16px;
+	}
+	#primary_nav_wrap, #primary_nav_wrap ul
+	{
+		float: none;
+	}
+	#primary_nav_wrap ul{
+		position:static;
+		width:100%;
+		box-shadow:3px 3px 2px #333;
+		border-bottom-right-radius:0px;
+		border-bottom-left-radius:0px;
+	}
+	#primary_nav_wrap li {
+    	margin-bottom: 10px;
+	}
+	#primary_nav_wrap ul li{
+		width:100%;
+	}
+	#primary_nav_wrap > li {
+		float: none;
+		position:static;
+	}
+
+	#primary_nav_wrap li li {
+		border-top: 1px solid #aedfe4;
+	}
+
+	#primary_nav_wrap li:hover > ul{
+		display:none;
+	}
+	#primary_nav_wrap li.hover > ul{
+		display: block;	
+	}
+
+	#sidenav_top{
+		background-color: #171717;
+		height: 25px;
+		width: 100%;
+		overflow-x: hidden;
+		transition: 0.5s;
+	}
+
+	/* The side navigation menu */
+	.sidenav {
+		display: inherit;
+		height: 100%; /* 100% Full-height */
+		width: 0; /* 0 width - change this with JavaScript */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Stay on top */
+		left: 0;
+		background-color: #171717;
+		overflow-x: hidden; /* Disable horizontal scroll */
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	}
+
+	/* The navigation menu links */
+	.sidenav a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s
+	}
+
+	/* When you mouse over the navigation links, change their color */
+	.sidenav a:hover, .offcanvas a:focus{
+		color: #f1f1f1;
+	}
+
+	/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+	#main {
+		transition: margin-left .5s;
+	}
+
+	.content{
+		margin-top: 60px;
+	}
+	#content_wrap{
+		flex-direction: column;
+	}
+	#column_left .widget{
+		float: none;
+		width:100%;
+	}
+
+	#column_clear{
+		display: none;
+	}	
+}
+
+/* Mobile - Horizontal */
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}

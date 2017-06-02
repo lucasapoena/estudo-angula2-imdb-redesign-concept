@@ -1,0 +1,129 @@
+{
+	"movies": [
+		{
+		  "id": 0,
+		  "name": "BirdMan",
+		  "description": "Description adasdasdasddasdas",
+		  "year": "2015",
+		  "picture": "webroot/img/galery/movies/movie-0.jpg",
+		  "genre": "Drama, Adventury",
+		  "boxOffice": "1000"
+		},
+		{
+		  "id": 1,
+		  "name": "The Hateful Eight",
+		  "description": "Description beaebiabeiaebiauebaiubie",
+		  "year": "2015",
+		  "picture": "webroot/img/galery/movies/movie-1.jpg",
+		  "genre": "Drama, Adventury",
+		  "boxOffice": "1000"
+		},
+		{
+		  "id": 2,
+		  "name": "Gravity",
+		  "description": "Description beaebiabeiaebiauebaiubie",
+		  "year": "2013",
+		  "picture": "webroot/img/galery/movies/movie-2.jpg",
+		  "genre": "Drama, Adventury",
+		  "boxOffice": "1000"
+		},	
+		{
+		  "id": 3,
+		  "name": "American Beaty",
+		  "description": "Description beaebiabeiaebiauebaiubie",
+		  "year": "1999",
+		  "picture": "webroot/img/galery/movies/movie-3.jpg",
+		  "genre": "Drama, Adventury",
+		  "boxOffice": "1000"
+		},	
+		{
+		  "id": 4,
+		  "name": "Piratas do Caribe: A Vingança de Salazar",
+		  "description": "O capitão Salazar é a nova pedra no sapato do capitão Jack Sparrow. Ele lidera um exército de piratas fantasmas assassinos e está disposto a matar todos os piratas existentes na face da Terra. Para escapar, Sparrow precisa encontrar o Tridente de Poseidon, que dá ao seu dono o poder de controlar o mar.",
+		  "year": "2017",
+		  "picture": "webroot/img/galery/movies/movie-4.jpg",
+		  "genre": "Drama, Adventury",
+		  "boxOffice": "1000"
+		}
+	],
+	"actors": [
+		{
+		  "id": 0,
+		  "name": "Chloe Grace Moretz",
+		  "description": "Description adasdasdasddasdas",
+		  "age": "18",
+		  "picture": "webroot/img/galery/actors/actor-0.jpg"
+		},
+		{
+		  "id": 1,
+		  "name": "Samuel L. Jackson",
+		  "description": "Description adasdasdasddasdas",
+		  "age": "67",
+		  "picture": "webroot/img/galery/actors/actor-1.jpg"
+		},
+		{
+		  "id": 2,
+		  "name": "Jennifer Lawrence",
+		  "description": "Description adasdasdasddasdas",
+		  "age": "26",
+		  "picture": "webroot/img/galery/actors/actor-2.jpg"
+		},
+		{
+		  "id": 3,
+		  "name": "Leonardo DiCaprio",
+		  "description": "Description adasdasdasddasdas",
+		  "age": "41",
+		  "picture": "webroot/img/galery/actors/actor-3.jpg"
+		}
+	],
+	"news": [
+		{
+		  "id": 0,
+		  "title": "Box Office: ‘Pirates of the Caribbean’ Sets Sail With $40 Million Worldwide",
+		  "description": "Box Office: ‘Pirates of the Caribbean’ Plunders $5.5 Million on Thursday Night It opened Thursday in Germany with a 60% market share on its Ascension Day holiday. Pirates saw a 59% market share in the U.K. The film earned $4 million on its opening day in Russia, the fifth-highest first day for any movie. The pic earned $3.6 million in Germany and $900,000 in the U.",
+		  "author": "Dave McNary",
+		  "picture": "webroot/img/galery/movies/movie-4.jpg",
+		  "date_publish": "2017-05-25"
+		},
+		{
+		  "id": 1,
+		  "title": "Tyler Perry’s ‘Boo 2! A Madea Halloween’ Sets Release Date",
+		  "description": "Written and directed by Perry, the comedy will star himself, Cassi Davis and Patrice Lovely. The film follows Madea and the gang as they venture to a haunted campground and they must literally run for their lives when monsters, goblins and the bogeyman are unleashed.",
+		  "author": "Beatrice Verhoeven",
+		  "picture": "webroot/img/galery/movies/movie-4.jpg",
+		  "date_publish": "2017-05-25"
+		},
+		{
+		  "id": 2,
+		  "title": "Did Pedro Almodóvar Sign On to Direct a Netflix Series? — Report",
+		  "description": "Box Office: ‘Pirates of the Caribbean’ Plunders $5.5 Million on Thursday Night It opened Thursday in Germany with a 60% market share on its Ascension Day holiday. Pirates saw a 59% market share in the U.K. The film earned $4 million on its opening day in Russia, the fifth-highest first day for any movie. The pic earned $3.6 million in Germany and $900,000 in the U.",
+		  "author": "Dave McNary",
+		  "picture": "webroot/img/galery/movies/movie-4.jpg",
+		  "date_publish": "2017-05-25"
+		},
+		{
+		  "id": 3,
+		  "title": "Jessica Chastain To Star And Produce ‘Seducing Ingrid Bergman’",
+		  "description": "Box Office: ‘Pirates of the Caribbean’ Plunders $5.5 Million on Thursday Night It opened Thursday in Germany with a 60% market share on its Ascension Day holiday. Pirates saw a 59% market share in the U.K. The film earned $4 million on its opening day in Russia, the fifth-highest first day for any movie. The pic earned $3.6 million in Germany and $900,000 in the U.",
+		  "author": "Dave McNary",
+		  "picture": "webroot/img/galery/movies/movie-4.jpg",
+		  "date_publish": "2017-05-25"
+		},
+		{
+		  "id": 4,
+		  "title": "‘Baywatch’ Catches Estimated $4.5M Surf, ‘Pirates’ Previews To Come — Box Office Friday AM",
+		  "description": "Box Office: ‘Pirates of the Caribbean’ Plunders $5.5 Million on Thursday Night It opened Thursday in Germany with a 60% market share on its Ascension Day holiday. Pirates saw a 59% market share in the U.K. The film earned $4 million on its opening day in Russia, the fifth-highest first day for any movie. The pic earned $3.6 million in Germany and $900,000 in the U.",
+		  "author": "Dave McNary",
+		  "picture": "webroot/img/galery/movies/movie-4.jpg",
+		  "date_publish": "2017-05-25"
+		},
+		{
+		  "id": 5,
+		  "title": "Eddie Redmayne’s ‘Early Man’ to Be Released by Lionsgate in North America",
+		  "description": "Box Office: ‘Pirates of the Caribbean’ Plunders $5.5 Million on Thursday Night It opened Thursday in Germany with a 60% market share on its Ascension Day holiday. Pirates saw a 59% market share in the U.K. The film earned $4 million on its opening day in Russia, the fifth-highest first day for any movie. The pic earned $3.6 million in Germany and $900,000 in the U.",
+		  "author": "Dave McNary",
+		  "picture": "webroot/img/galery/movies/movie-4.jpg",
+		  "date_publish": "2017-05-25"
+		}
+	]
+}
